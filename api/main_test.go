@@ -8,6 +8,6 @@ import (
 )
 
 func TestMain(m *testing.M) {
-	gin.setMode(gin.TestMode)
+	gin.SetMode(gin.TestMode)
 	os.Exit(m.Run())
 }
